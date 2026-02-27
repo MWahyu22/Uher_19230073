@@ -23,20 +23,11 @@ class DetailBiodata extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              "NIM: $nim",
-              style: TextStyle(fontSize: 18),
-            ),
+            Text("NIM: $nim", style: TextStyle(fontSize: 18)),
             SizedBox(height: 10),
-            Text(
-              "Nama: $nama",
-              style: TextStyle(fontSize: 18),
-            ),
+            Text("Nama: $nama", style: TextStyle(fontSize: 18)),
             SizedBox(height: 10),
-            Text(
-              "Email: $email",
-              style: TextStyle(fontSize: 18),
-            ),
+            Text("Email: $email", style: TextStyle(fontSize: 18)),
           ],
         ),
       ),
